@@ -19,12 +19,12 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("enchantmentscraping")
-public class Enchantmentscraping {
+public class EnchantmentScraping {
 
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Enchantmentscraping() {
+    public EnchantmentScraping() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
