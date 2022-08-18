@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enchantmentscraping:scraping_station"
+    ]
+  },
+  "criteria": {
+    "created_enchanting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanting_table"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enchantmentscraping:scraping_station"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "created_enchanting_table",
+      "has_the_recipe"
+    ]
+  ]
+}

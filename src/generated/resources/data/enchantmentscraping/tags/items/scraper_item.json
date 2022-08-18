@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enchantmentscraping:iron_scraper",
+    "enchantmentscraping:diamond_scraper",
+    "enchantmentscraping:obsidian_scraper",
+    "enchantmentscraping:netherite_scraper"
+  ]
+}

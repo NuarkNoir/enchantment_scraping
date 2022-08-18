@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " m ",
+    "msm",
+    " m "
+  ],
+  "key": {
+    "m": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "enchantmentscraping:iron_scraper"
+  }
+}

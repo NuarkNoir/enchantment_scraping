@@ -1,0 +1,19 @@
+ {
+	"variants": {
+		"facing=east": {
+			"model": "enchantmentscraping:block/scraping_station"
+		},
+		"facing=north": {
+			"model": "enchantmentscraping:block/scraping_station",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "enchantmentscraping:block/scraping_station",
+			"y": 270
+		},
+		"facing=west": {
+			"model": "enchantmentscraping:block/scraping_station",
+			"y": 180
+		}
+	}
+}

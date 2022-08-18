@@ -1,0 +1,8 @@
+{
+  "block.enchantmentscraping.scraping_station": "Scraping Station",
+  "item.enchantmentscraping.diamond_scraper": "Diamond Scraper",
+  "item.enchantmentscraping.iron_scraper": "Iron Scraper",
+  "item.enchantmentscraping.netherite_scraper": "Netherite Scraper",
+  "item.enchantmentscraping.obsidian_scraper": "Obsidian Scraper",
+  "itemGroup.enchantmentscraping": "Enchantment Scraping"
+}

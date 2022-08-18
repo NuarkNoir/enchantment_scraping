@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s s",
+    "sos",
+    "lll"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "o": {
+      "tag": "forge:obsidian"
+    },
+    "l": {
+      "item": "minecraft:smooth_quartz_slab"
+    }
+  },
+  "result": {
+    "item": "enchantmentscraping:scraping_station"
+  }
+}

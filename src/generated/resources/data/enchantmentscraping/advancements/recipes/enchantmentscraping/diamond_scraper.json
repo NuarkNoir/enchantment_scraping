@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enchantmentscraping:diamond_scraper"
+    ]
+  },
+  "criteria": {
+    "created_scraper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enchantmentscraping:scraping_station"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enchantmentscraping:diamond_scraper"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "created_scraper",
+      "has_the_recipe"
+    ]
+  ]
+}
